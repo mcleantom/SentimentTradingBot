@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Sentiment API",
+            "type": "python",
+            "request": "launch",
+            "module": "sentiment_api",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/sentiment_api",
+            "args": "launch"
+        }
+    ]
+}

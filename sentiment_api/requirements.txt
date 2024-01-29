@@ -3,3 +3,7 @@ torch
 pandas
 scikit-learn
 numpy
+fastapi
+pyarrow
+click
+uvicorn

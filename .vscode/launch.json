@@ -7,7 +7,17 @@
             "module": "sentiment_api",
             "justMyCode": true,
             "cwd": "${workspaceFolder}/sentiment_api",
-            "args": "launch"
+            "args": "launch",
+        },
+        {
+            "name": "Sentiment Model",
+            "type": "python",
+            "request": "launch",
+            "module": "sentiment_model",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/sentiment_model",
+            "args": "launch",
+            "envFile": "${workspaceFolder}/.env",
         }
     ]
 }

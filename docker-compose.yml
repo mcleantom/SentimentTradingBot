@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  sentiment-api:
+    build:
+      context: ./sentiment_api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
